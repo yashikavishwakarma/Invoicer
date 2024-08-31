@@ -33,7 +33,7 @@ export default function Home() {
                 </li>
               </ul>
 
-              <div>
+              {/* <div>
                 <p className="text-slate-700 mt-5 text-center md:text-left">
                   Do you like Invoicer? Check out my other app called{" "}
                   <a
@@ -45,7 +45,7 @@ export default function Home() {
                     Diarry
                   </a>
                 </p>
-              </div>
+              </div> */}
             </article>
 
             <article className="hidden md:block">
