@@ -1,4 +1,4 @@
-![alt]()
+![alt](/invoicerScreenshot.png)
 
 ## Current Features
 
