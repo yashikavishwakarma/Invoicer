@@ -41,15 +41,7 @@ export default function Footer() {
             </li>
           </ul>
           <p className="text-slate-200">
-            Built by{" "}
-            <a
-              href="https://tsbsankara.netlify.app"
-              target="_blank"
-              rel="noreferrer"
-              className="underline hover:text-slate-50"
-            >
-              Thomas Sankara
-            </a>
+            Built by MechaCode
           </p>
         </footer>
       </div>
