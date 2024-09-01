@@ -4,7 +4,7 @@ import { LogIn, CreateAccount } from "../buttons"
 export default function About() {
     return (
         <>
-            <section className="bg-teal-200 py-10 lg:py-32 ">
+            <section className="bg-teal-200 lg:py-32 ">
                 <div className="max-width">
                     <div className="overlay">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center mb-3 text-slate-800 lg:mb-8">
