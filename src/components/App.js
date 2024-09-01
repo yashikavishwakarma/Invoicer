@@ -8,7 +8,6 @@ import Notes from "./Notes";
 import Table from "./Table";
 import TableForm from "./TableForm";
 import ReactToPrint from "react-to-print";
-import { DonateButton } from "../buttons";
 import { State } from "../context/stateContext";
 
 function App() {
@@ -251,9 +250,6 @@ function App() {
               ></textarea>
             </div>
           </div>
-          <article className="mt-5">
-            <DonateButton />
-          </article>
         </section>
 
         {/* Invoice Preview */}
