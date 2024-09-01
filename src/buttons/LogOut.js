@@ -7,12 +7,13 @@ export default function LogOut() {
 
   return (
     <>
-      <button
-        onClick={() => setShowLogoutModal(true)}
-        className="bg-white py-2 px-6 rounded text-base hover:bg-gray-800 text-gray-800 transition-all duration-150 hover:text-white hover:ring-4 hover:ring-gray-400"
-      >
-        Log Out
-      </button>
+
+              <button className="p-[3px] relative" onClick={() => setShowLogoutModal(true)}>
+                <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
+                <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
+                  Lit up borders
+                </div>
+              </button>
 
       {/* Logout component modal */}
       {showLogoutModal && <Logout />}

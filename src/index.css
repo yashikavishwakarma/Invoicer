@@ -44,7 +44,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 18px;
-  @apply bg-teal-50 overflow-x-hidden;
+  @apply bg-white overflow-x-hidden;
 }
 
 .max-width {
