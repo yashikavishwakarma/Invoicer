@@ -1,5 +1,5 @@
 import { CreateAccount, LogIn } from "../buttons"
-import hero from "../images/invoicerScreenshot.png"
+import hero from "../images/download.png"
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
         <section className="py-10 lg:py-32">
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:place-items-center md:gap-10 lg:gap-20">
             <article>
-              <h1 className="text-slate-700 mb-5 text-4xl md:text-5xl font-bold text-center md:text-left">
+              <h1 className="text-blue-900 mb-5 text-4xl md:text-5xl font-bold text-center md:text-left">
                 Create invoices with Invoicer
               </h1>
               <article className="md:hidden">
@@ -16,10 +16,10 @@ export default function Home() {
                   src={hero}
                   alt="Create Invoices Easily"
                   title="Create Invoices Easily"
-                  className="block mx-auto rounded"
+                  className="block mx-auto rounded "
                 />
               </article>
-              <p className="text-slate-700 mt-5 md:mt-0 mb-5 text-center md:text-left">
+              <p className="text-purple-900 mt-5 md:mt-0 mb-5 text-center md:text-left">
                 Easily create, download and print invoices for your clients. No
                 more unsurety, just Invoicer It!
               </p>
