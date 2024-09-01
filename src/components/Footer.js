@@ -37,15 +37,7 @@ export default function Footer() {
       </footer>
 
       <p className="text-center px-5 mt-8 text-xs ">
-        Invoicer is built by{" "}
-        <a
-          href="https://tsbsankara.com"
-          target="_blank"
-          rel="noreferrer"
-          className="underline"
-        >
-          Thomas Sankara
-        </a>
+        Invoicer is built by MechaCode
       </p>
     </>
   );
